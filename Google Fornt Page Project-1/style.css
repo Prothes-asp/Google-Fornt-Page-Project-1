@@ -1,0 +1,123 @@
+header ul{
+    text-align: right;
+}
+header ul li{
+ display: inline-block;
+ margin-right:12px;
+ margin-top:12px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #191919;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+header ul li a:hover{
+    color: #191919;
+    text-decoration: underline;
+}
+header ul li a img{
+    border-radius:50%;
+    margin-right:10px;
+}
+
+header ul li a i{
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size:20px;
+}
+header ul li a i:hover{
+    background-color:rgba(104, 102, 102, 0.329);
+    border-radius: 50%;
+
+}
+
+/* Google Logo */
+.lnXdpd {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+/* Search Button */
+.srcbtn .search-main{
+    background-color: white;
+    border:1px solid rgba(128, 128, 128, 0.158);
+    border-radius:100px;
+    max-width:750px;
+    margin: auto;
+}
+
+.srcbtn .search-main:hover{
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.37);
+}
+
+.srcbtn .search-main .input-group-text{
+    border: none;
+    background-color: white;
+}
+.srcbtn .search-main .search{
+    line-height:30px;
+}
+.srcbtn .search-main .microphone{
+    line-height:30px;
+    color: #4285f4;
+    font-size:20px;
+    cursor: pointer;
+
+}
+.srcbtn .search-main .form-control{
+    border: none;
+    box-shadow:none;
+    outline: none;
+}
+
+/* Extra Button */
+.simple-button .btn{
+    background-color: rgba(160, 159, 159, 0.062);
+    font-size: 18px;
+}
+.simple-button .btn:hover{
+    border:1px solid rgba(128, 128, 128, 0.288);
+    box-shadow:1px 1px 5px rgba(128, 128, 128, 0.247);
+}
+
+.txt p a{
+    text-decoration: none;
+}
+.txt p a:hover{
+    text-decoration:underline;
+}
+
+
+/* Footer Section start here */
+.footer-main{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-main p{
+    padding: 15px 30px;
+    color: rgba(0,0,0,.54); 
+    font-size: 20px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-main ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer-main ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 20px;
+}
+.footer-main ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Footer Section End here */
